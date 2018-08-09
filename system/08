@@ -1,0 +1,5 @@
+Authorized remote users public keys:
+/home/*/.ssh/authorized_keys
+
+Authorized remote servers
+~/.ssh/known_hosts

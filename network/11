@@ -1,0 +1,2 @@
+traceroute slash16.org | head -n2 | tail -n1
+

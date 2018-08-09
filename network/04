@@ -1,1 +1,4 @@
 route get default | grep gateway | awk '{print $2}'
+
+Linux: route | grep default
+Linux modern: ip route show | grep default

@@ -1,0 +1,2 @@
+iptables -t <table> (filter/nat/mangle/raw) -L
+nft list ruleset
