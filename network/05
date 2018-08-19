@@ -1,1 +1,3 @@
 host slash16.org | grep address | awk '{print $4}'
+
+# also nslookup and dig can do it

@@ -1,0 +1,6 @@
+#!/bin/bash
+APT="/usr/bin/apt-get"
+TASK="0 4 * * 1 $APT update && $APT upgrade  >> /var/log/update_script.log"
+echo "$TASK" | crontab
+
+# run sudo ./02

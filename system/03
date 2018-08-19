@@ -1,6 +1,3 @@
-Old Linux:
+# You need to modify /etc/hostname
+
 /etc/hostname
-
-SystemD: see 02
-
-

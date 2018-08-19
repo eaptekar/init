@@ -1,1 +1,7 @@
-service sshd status
+sudo service sshd status
+
+# You should install openssh-server first and start it
+# sudo apt-get update & apt-get install openssh-server
+# sudo service ssh start
+# and then you can check state of SSH service
+

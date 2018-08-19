@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ -d $1 ]
+then
+	ls -lSr $1
+else
+	echo "Error"
+fi

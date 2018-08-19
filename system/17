@@ -1,2 +1,6 @@
-iptables -t <table> (filter/nat/mangle/raw) -L
-nft list ruleset
+iptables -nvL
+
+# you must do it under root
+# it shows the rules for the filter table (it's default)
+# if you want to change table, print this
+# iptables -t <table> (filter/nat/mangle/raw) -nvL

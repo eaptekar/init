@@ -1,4 +1,5 @@
-top
-ps all
-htop
-ps ax
+ps axu
+
+# also	top
+#		ps -ely
+#		htop (if it installed)

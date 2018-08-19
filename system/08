@@ -1,5 +1,7 @@
-Authorized remote users public keys:
-/home/*/.ssh/authorized_keys
+~/.ssh/authorized_keys
 
-Authorized remote servers
-~/.ssh/known_hosts
+# you have to create the .ssh directory and the authorized_keys file the first time
+# mkdir ~/.ssh
+# chmod 700 ~/.ssh
+# touch ~/.ssh/authorized_keys
+# chmod 600 ~/.ssh/authorized_keys

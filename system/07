@@ -1,2 +1,4 @@
-pidof /usr/bin/sshd
+pidof /usr/sbin/sshd
 
+# also ->sudo service sshd status | grep PID
+# cat /var/run/sshd.pid

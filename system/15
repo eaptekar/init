@@ -1,1 +1,6 @@
-kill $(jobs -p)
+kill PID
+
+# pkill <job_name>
+# if you want to kill all background processes - use the following
+# kill $(jobs -p)
+# jobs -p | xargs kill

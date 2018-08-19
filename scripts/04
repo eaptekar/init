@@ -1,0 +1,14 @@
+#!/bin/bash
+TASK="if [ -e crontab_copy ]
+then
+	md5sum /etc/crontab crontab_copy > check.md5
+	if ! md5sum -c check.md5
+	then
+		mail -s \"File was modified\" root
+		rm crontab_copy && cp /etc/crontab crontab_copy
+	fi
+else
+	cp /etc/crontab crontab_copy
+fi"
+echo "$TASK" > script.sh
+echo "0 0 * * * script.sh" | crontab

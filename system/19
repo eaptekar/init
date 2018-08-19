@@ -1,1 +1,3 @@
 iptables -t filter -A INPUT -j DROP
+
+# iptables working only under root
