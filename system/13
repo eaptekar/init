@@ -1,5 +1,5 @@
-ps axu
+top
 
-# also	top
+# also	ps axu
 #		ps -ely
 #		htop (if it installed)

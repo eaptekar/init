@@ -1,4 +1,4 @@
 whois $(host slash16.org | grep address | awk 'NR == 1 {print $4}')
  
- #It's Amazon
+ #It's Amazon Technologies Inc.
  
